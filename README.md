@@ -1,5 +1,7 @@
 <h2 align="left">Hi 👋! My name is Zack Bradshaw and I'm a software developer from Springfield Missouri</h2>
 
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 ###
 
 <div align="center">
