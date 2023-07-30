@@ -24,3 +24,4 @@ jobs:
           SHOW_TIMEZONE: True
           SHOW_EDITORS: True
           SHOW_LANGUAGE_PER_REPO: True
+          DEBUG_LOGGING: True
