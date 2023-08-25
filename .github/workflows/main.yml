@@ -3,6 +3,7 @@ on:
     # Runs at 12am IST
     - cron: '30 18 * * *'
   workflow_dispatch:
+
 jobs:
   update-readme:
     name: Update Readme with Metrics
@@ -13,30 +14,28 @@ jobs:
 
       - name: Update Readme
         id: update-readme
-        run: |
-          steps:
-            - uses: anmol098/waka-readme-stats@master
-              with:
-                GH_TOKEN: ${{ secrets.GH_TOKEN }}
-                WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-                SHOW_LINES_OF_CODE: True
-                SHOW_TOTAL_CODE_TIME: True
-                SHOW_PROFILE_VIEWS: True
-                SHOW_DAYS_OF_WEEK: True
-                SHOW_LANGUAGE: True
-                SHOW_OS: True
-                SHOW_PROJECTS: True
-                SHOW_TIMEZONE: True
-                SHOW_EDITORS: True
-                SHOW_LANGUAGE_PER_REPO: True
-                DEBUG_LOGGING: True
+        uses: anmol098/waka-readme-stats@master
+        with:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SHOW_LINES_OF_CODE: True
+          SHOW_TOTAL_CODE_TIME: True
+          SHOW_PROFILE_VIEWS: True
+          SHOW_DAYS_OF_WEEK: True
+          SHOW_LANGUAGE: True
+          SHOW_OS: True
+          SHOW_PROJECTS: True
+          SHOW_TIMEZONE: True
+          SHOW_EDITORS: True
+          SHOW_LANGUAGE_PER_REPO: True
+          DEBUG_LOGGING: True
 
       - name: Check Rate Limit
         run: echo "Rate Limit Remaining: ${{ steps.update-readme.outputs.RATE_LIMIT_REMAINING }}"
 
       - name: Retry on Rate Limit Exceeded
-        if: steps.update-readme.outputs.RATE_LIMIT_REMAINING == 0
+        if: steps.update-readme.outputs.RATE_LIMIT_REMAINING == '0'
         run: |
           echo "Rate limit exceeded. Retrying after a delay..."
           sleep 30
-          # Repeat the Update Readme step here
+          # Insert the logic or steps to repeat the Update Readme action
