@@ -43,7 +43,4 @@
 ###
 
 <br clear="both">
-
-<img src="https://raw.githubusercontent.com/ZackBradshaw/ZackBradshaw/output/snake.svg" alt="Snake animation" />
-
 ###
