@@ -12,42 +12,44 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Install jq
-        run: sudo apt-get install jq
-
-      - name: Update Readme
-        id: update-readme
-        uses: anmol098/waka-readme-stats@master
-        with:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_LINES_OF_CODE: True
-          SHOW_TOTAL_CODE_TIME: True
-          SHOW_PROFILE_VIEWS: True
-          SHOW_DAYS_OF_WEEK: True
-          SHOW_LANGUAGE: True
-          SHOW_OS: True
-          SHOW_PROJECTS: True
-          SHOW_TIMEZONE: True
-          SHOW_EDITORS: True
-          SHOW_LANGUAGE_PER_REPO: True
-          DEBUG_LOGGING: True
-        continue-on-error: true
-
-      - name: Retry if necessary
+      - name: Check GitHub Rate Limit
         run: |
-          retry_count=5  # Number of retries
+          rate_limit=$(curl -s -H "Authorization: token ${{ secrets.GH_TOKEN }}" "https://api.github.com/rate_limit" | jq '.resources.core.remaining')
+          while [ "$rate_limit" -le 10 ]; do
+            echo "Low GitHub rate limit detected ($rate_limit remaining). Waiting for 5 minutes..."
+            sleep 300
+            rate_limit=$(curl -s -H "Authorization: token ${{ secrets.GH_TOKEN }}" "https://api.github.com/rate_limit" | jq '.resources.core.remaining')
+          done
+
+      - name: Update Readme with Retry for Wakatime
+        id: update-readme
+        run: |
+          retry_count=5
           while [ $retry_count -gt 0 ]; do
-            response=$(curl -s -H "Authorization: Bearer ${{ secrets.WAKATIME_API_KEY }}" "https://wakatime.com/api/v1/users/current/stats/last_7_days")
-            status=$(echo "$response" | jq -r '.data.status')
-            if [ "$status" == "ready_status_value" ]; then
-              # Data is ready
+            # Try to update the readme
+            if uses: anmol098/waka-readme-stats@master
+               with:
+                 GH_TOKEN: ${{ secrets.GH_TOKEN }}
+                 WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+                 SHOW_LINES_OF_CODE: True
+                 SHOW_TOTAL_CODE_TIME: True
+                 SHOW_PROFILE_VIEWS: True
+                 SHOW_DAYS_OF_WEEK: True
+                 SHOW_LANGUAGE: True
+                 SHOW_OS: True
+                 SHOW_PROJECTS: True
+                 SHOW_TIMEZONE: True
+                 SHOW_EDITORS: True
+                 SHOW_LANGUAGE_PER_REPO: True
+                 DEBUG_LOGGING: True; then
+              # If successful, break out of the loop
               break
             fi
-            echo "Waiting for data to be ready..."
-            sleep 60  # Wait for 1 minute
+            echo "Wakatime API might be busy or data is not ready. Retrying in 5 minutes..."
+            sleep 300
             retry_count=$((retry_count-1))
           done
+        continue-on-error: true
 
       - name: Sleep for 0.6 seconds
         run: sleep 0.6
