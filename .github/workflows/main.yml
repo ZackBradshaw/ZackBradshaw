@@ -33,13 +33,3 @@ jobs:
 
       - name: Sleep for 0.6 seconds
         run: sleep 0.6
-
-      - name: Check Rate Limit
-        run: echo "Rate Limit Remaining: ${{ steps.update-readme.outputs.RATE_LIMIT_REMAINING }}"
-
-      - name: Retry on Rate Limit Exceeded
-        if: steps.update-readme.outputs.RATE_LIMIT_REMAINING == '0'
-        run: |
-          echo "Rate limit exceeded. Retrying after a delay..."
-          sleep 30
-          # Insert the logic or steps to repeat the Update Readme action
