@@ -37,6 +37,7 @@ jobs:
           SHOW_TIMEZONE: 'True'
           SHOW_EDITORS: 'True'
           SHOW_LANGUAGE_PER_REPO: 'True'
+          SYMBOL_VERSION: '2'
           DEBUG_LOGGING: 'True'
         continue-on-error: true
 
@@ -61,6 +62,7 @@ jobs:
                  SHOW_TIMEZONE: 'True'
                  SHOW_EDITORS: 'True'
                  SHOW_LANGUAGE_PER_REPO: 'True'
+                 SYMBOL_VERSION: '2'
                  DEBUG_LOGGING: 'True'; then
               break
             fi
