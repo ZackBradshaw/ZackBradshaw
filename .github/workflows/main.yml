@@ -29,6 +29,10 @@ jobs:
           SHOW_EDITORS: True
           SHOW_LANGUAGE_PER_REPO: True
           DEBUG_LOGGING: True
+        continue-on-error: true
+
+      - name: Sleep for 0.6 seconds
+        run: sleep 0.6
 
       - name: Check Rate Limit
         run: echo "Rate Limit Remaining: ${{ steps.update-readme.outputs.RATE_LIMIT_REMAINING }}"
