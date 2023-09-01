@@ -41,7 +41,7 @@
 
 ###
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ZackBradshawa&langs_count=20&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ZackBradshaw&langs_count=20&layout=compact)
 
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-1%2C659%20hrs%2047%20mins-blue)
