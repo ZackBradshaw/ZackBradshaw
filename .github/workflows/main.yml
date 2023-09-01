@@ -12,13 +12,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Install jq
+        run: sudo apt-get install jq
+
       - name: Update Readme
         id: update-readme
         uses: anmol098/waka-readme-stats@master
         with:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SECTION_NAME: waka
           SHOW_LINES_OF_CODE: True
           SHOW_TOTAL_CODE_TIME: True
           SHOW_PROFILE_VIEWS: True
@@ -31,6 +33,21 @@ jobs:
           SHOW_LANGUAGE_PER_REPO: True
           DEBUG_LOGGING: True
         continue-on-error: true
+
+      - name: Retry if necessary
+        run: |
+          retry_count=5  # Number of retries
+          while [ $retry_count -gt 0 ]; do
+            response=$(curl -s -H "Authorization: Bearer ${{ secrets.WAKATIME_API_KEY }}" "https://wakatime.com/api/v1/users/current/stats/last_7_days")
+            status=$(echo "$response" | jq -r '.data.status')
+            if [ "$status" == "ready_status_value" ]; then
+              # Data is ready
+              break
+            fi
+            echo "Waiting for data to be ready..."
+            sleep 60  # Wait for 1 minute
+            retry_count=$((retry_count-1))
+          done
 
       - name: Sleep for 0.6 seconds
         run: sleep 0.6
