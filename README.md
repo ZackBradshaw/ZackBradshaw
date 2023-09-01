@@ -1,10 +1,6 @@
 <h2 align="left">Hi 👋! My name is Zack Bradshaw and I'm a software developer from Springfield Missouri</h2>
 
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C659%20hrs%2047%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue)
-
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-45.2%20million%20lines%20of%20code-blue)
 ###
 
 <div align="center">
@@ -45,9 +41,14 @@
 
 ###
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aZackBradshawa&langs_count=20&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ZackBradshawa&langs_count=20&layout=compact)
 
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C659%20hrs%2047%20mins-blue)
+
+![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue)
+
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-45.2%20million%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
