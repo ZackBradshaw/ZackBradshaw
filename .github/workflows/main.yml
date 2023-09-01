@@ -20,8 +20,25 @@ jobs:
             sleep 300
             rate_limit=$(curl -s -H "Authorization: token ${{ secrets.GH_TOKEN }}" "https://api.github.com/rate_limit" | jq '.resources.core.remaining')
           done
+          
+      - name: WakaReadme DevMetrics
+        id: devmetrics
+        uses: athul/waka-readme@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SHOW_TITLE: 'true'
+          SECTION_NAME: 'waka'
+          BLOCKS: '=>'
+          CODE_LANG: 'python'
+          TIME_RANGE: 'all_time'
+          LANG_COUNT: '100000'
+          SHOW_TIME: 'true'
+          SHOW_TOTAL: 'true'
+          SHOW_MASKED_TIME: 'true'
+        continue-on-error: true
 
-      - name: Update Readme with Retry for Wakatime
+
+      - name: Update Readme
         id: update-readme
         uses: anmol098/waka-readme-stats@master
         with:
@@ -43,31 +60,22 @@ jobs:
 
       - name: Retry if Wakatime API failed
         if: steps.update-readme.outcome == 'failure'
-        run: |
-          retry_count=4
-          while [ $retry_count -gt 0 ]; do
-            echo "Wakatime API might be busy or data is not ready. Retrying in 5 minutes..."
-            sleep 300
-            if uses: anmol098/waka-readme-stats@master
-               with:
-                 GH_TOKEN: ${{ secrets.GH_TOKEN }}
-                 WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-                 SHOW_LINES_OF_CODE: 'True'
-                 SHOW_TOTAL_CODE_TIME: 'True'
-                 SHOW_PROFILE_VIEWS: 'True'
-                 SHOW_DAYS_OF_WEEK: 'True'
-                 SHOW_LANGUAGE: 'True'
-                 SHOW_OS: 'True'
-                 SHOW_PROJECTS: 'True'
-                 SHOW_TIMEZONE: 'True'
-                 SHOW_EDITORS: 'True'
-                 SHOW_LANGUAGE_PER_REPO: 'True'
-                 SYMBOL_VERSION: '2'
-                 DEBUG_LOGGING: 'True'; then
-              break
-            fi
-            retry_count=$((retry_count-1))
-          done
+        uses: anmol098/waka-readme-stats@master
+        with:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SHOW_LINES_OF_CODE: 'True'
+          SHOW_TOTAL_CODE_TIME: 'True'
+          SHOW_PROFILE_VIEWS: 'True'
+          SHOW_DAYS_OF_WEEK: 'True'
+          SHOW_LANGUAGE: 'True'
+          SHOW_OS: 'True'
+          SHOW_PROJECTS: 'True'
+          SHOW_TIMEZONE: 'True'
+          SHOW_EDITORS: 'True'
+          SHOW_LANGUAGE_PER_REPO: 'True'
+          SYMBOL_VERSION: '2'
+          DEBUG_LOGGING: 'True'
 
       - name: Sleep for 0.6 seconds
         run: sleep 0.6
