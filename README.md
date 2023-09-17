@@ -1,6 +1,5 @@
 <h2 align="left">Hi 👋! My name is Zack Bradshaw and I'm a software developer specializing in AI development from Springfield Missouri</h2>
 
-
 ###
 
 <div align="center">
