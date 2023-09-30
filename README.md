@@ -1,7 +1,61 @@
 <h2 align="left">Hi 👋! My name is Zack Bradshaw and I'm a software developer specializing in AI development from Springfield Missouri</h2>
 
-###
+# Zack Bradshaw: A Tech Odyssey 🚀
 
+---
+
+## 🎭 Prelude: A Tech Narrative
+
+My journey through the technological cosmos is akin to an ever-evolving narrative, where each domain I explore adds a new verse to my saga. In the realm of web development, I weave the intricate tapestry of codes, knitting pixels and protocols into digital canvases 🎨. As I traverse into the gaming universes, I sculpt virtual realms, painting immersive stories through the lens of interactive design 🎮. Amidst the frontier of artificial intelligence, I breathe life into autonomous agents, honing the underlying models that fuel their cognition 🤖. The theater of software and hardware development unveils my finesse in molding digital and electronic clay, crafting both the stage and the script for tech dramas 🎭. The electrical tinkering is my playground where circuits and semiconductors dance to my tunes 🔌. Whether orchestrating symphonies in local computing realms or conducting cloud computing ballets, every chord of tech resonates through my endeavors ☁️. My professional realm isn't confined to a cubicle, it's an endless horizon where every sunrise unveils new tech landscapes to conquer 🌅. This insatiable quest, unencumbered by the traditional boundaries, is both my profession and my undying hobby, propelled by a drive that knows no off switch 🔄.
+
+## 🌐 Community Engagements:
+
+### OpenSGF:
+- As a co-organizer, I actively contribute to projects that deliver websites for non-profits, bridging the digital divide for them 🌉.
+- I've been instrumental in providing a robust platform for budding developers to gain real-world experience, nurturing the next generation of tech mavens 🌱.
+
+### SGF Devs:
+- A key participant in a vibrant network of developers, engendering a rich ecosystem of collaborative learning and innovation 🌐.
+- Regular interactions within this group provide a conduit for exchanging ideas, exploring tech trends, and building a communal support system vital for nurturing the local tech scene 🤝.
+
+### Discord Community:
+- Leading the official hackathon team, I spearhead various initiatives aimed at delving into pioneering papers, orchestrating open-source contributions, and nurturing a vibrant hub for tech enthusiasts 📜.
+
+---
+
+## 🏆 Hackathon Achievements:
+
+- [Ikigai Project - Top 25](https://lablab.ai/event/autonomous-agents-hackathon/agora-spartans/ikigai): A venture into autonomous agents, blending unique AI frameworks to carve out notable solutions 🤖.
+- [Profit Pilot - Top 8](https://lablab.ai/event/llama-2-hackathon-with-clarifai/agora-spartans/profit-pilot): Fusing AI with intuitive interfaces to drive optimized outcomes in the business landscape 📈.
+- [Game Jam - Rise of Agora](https://zackbradshaw.itch.io/riseofagora): An amalgamation of my love for game development and AI, fostering a novel gaming experience 🎮.
+
+
+## 🛠 Tech Strengths:
+
+- Proficient in a wide spectrum of tech domains, encompassing local and cloud computing, autonomous agent systems, and the underlying models themselves 🌐.
+- Pioneering in electrical tinkering, unraveling the nuances of hardware to provide holistic tech solutions 🔌.
+- Versatile problem-solving capabilities honed through diverse project engagements 🧩.
+- Demonstrated leadership and community-building acumen, guiding hackathon teams to victory and fostering vibrant, collaborative tech communities 🏆.
+
+---
+
+## 🎓 Continuous Learning:
+
+My ardor for continuous learning is manifested through active involvement in dissecting and implementing cutting-edge papers 📚. A zealous contributor to open-source projects, I am committed to pushing the boundaries of what's possible 🔧.
+
+---
+
+## 🚀 Future Aspirations:
+
+Envisioning a future where technology is the linchpin for societal advancement, I am in the nascent stages of launching an AI startup 🌱. This venture is aimed at leading a technological renaissance, addressing pressing societal challenges through AI-driven solutions 🌐.
+
+---
+
+## ✨ Connect:
+
+Join the tech odyssey on our [Discord channel](https://discord.gg/gVT4HeFRPyh) or reach out to me through my [website](https://ZackBradshaw.com) to explore collaborative ventures 🤝.
+
+###
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ZackBradshaw&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ZackBradshaw&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
