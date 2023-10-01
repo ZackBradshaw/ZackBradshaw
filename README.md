@@ -31,13 +31,9 @@ The playground of circuits and semiconductors, where my creative currents find t
 - Engage with the community on [Discord](https://discord.gg/JJRpkNGX).
 
 ### SGF Devs:
-- A key participant in a vibrant network of developers, engendering a rich ecosystem of collaborative learning and innovation 🌐.
+- Participant in a vibrant network of developers, engendering a rich ecosystem of collaborative learning and innovation 🌐.
 - Regular interactions within this group provide a conduit for exchanging ideas, exploring tech trends, and building a communal support system vital for nurturing the local tech scene 🤝.
 - Join the conversation on [Discord](https://discord.gg/qs5kZSgw6y).
-
-### Hack4Good:
-- Involved in socially responsible hackathons, leveraging technology to address community challenges and drive positive change 🛠.
-- Connect and collaborate on [Discord](https://discord.gg/McRdFYrB).
 
 ### Discord Community:
 - Leading the official hackathon team, spearheading initiatives aimed at delving into pioneering papers, orchestrating open-source contributions, and nurturing a vibrant hub for tech enthusiasts 📜.
