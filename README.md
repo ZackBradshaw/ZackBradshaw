@@ -1,8 +1,8 @@
-# Zack Bradshaw: A Tech Odyssey 🚀
+# A Tech Odyssey 🚀
 
 ---
 
-## 🎭 Prelude: A Tech Narrative
+##  A Tech Narrative
 
 Embarking on an endless voyage through the vast and varied realms of technology, I am a perpetual explorer. My journey through the technological cosmos is akin to an ever-evolving narrative, where each domain I explore adds a new verse to my saga. Here’s a glimpse of my tech odyssey across various domains:
 
