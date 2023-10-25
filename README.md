@@ -179,12 +179,6 @@ C                        1 repo              ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 ```
 
 
-
-**Timeline**
-
-![Lines of Code chart](https://raw.githubusercontent.com/ZackBradshaw/ZackBradshaw/main/assets/bar_graph.png)
-
-
  Last Updated on 24/10/2023 18:42:14 UTC
 <!--END_SECTION:waka-->
 
