@@ -177,15 +177,6 @@ PHP                      4 repos             ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 C#                       1 repo              ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   01.61 % 
 C                        1 repo              ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   01.61 % 
 ```
-
-
-
-**Timeline**
-
-![Lines of Code chart](https://raw.githubusercontent.com/ZackBradshaw/ZackBradshaw/main/assets/bar_graph.png)
-
-
- Last Updated on 31/10/2023 18:42:14 UTC
 <!--END_SECTION:waka-->
 
 
