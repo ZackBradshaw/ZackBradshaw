@@ -5,7 +5,7 @@ Embarking on an endless voyage through the vast and varied realms of technology,
 ### Web Development 🌐:
 Weaving the intricate tapestry of codes, I knit pixels and protocols into digital canvases, providing a gateway for people to explore the world wide web. The enigmatic codebase is my lexicon, enabling me to script digital stories.
 
-### Game Developemnt 🎮:
+### Game Developement 🎮:
 Traversing into the gaming universes, I sculpt virtual realms, painting immersive stories through the lens of interactive design. Each game level is a novel, each character an embodiment of a unique tale.
 
 ### Artificial Intelligence 🤖:
