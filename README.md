@@ -59,13 +59,6 @@ The updated sections encapsulate a more detailed exploration of your tech journe
 My ardor for continuous learning is manifested through active involvement in dissecting and implementing cutting-edge papers 📚. A zealous contributor to open-source projects, I am committed to pushing the boundaries of what's possible 🔧.
 
 ---
-
-## 🚀 Future Aspirations:
-
-Envisioning a future where technology is the linchpin for societal advancement, I am in the nascent stages of launching an AI startup 🌱. This venture is aimed at leading a technological renaissance, addressing pressing societal challenges through AI-driven solutions 🌐.
-
----
-
 ## ✨ Connect:
 
 Reach out to me through my [website](https://ZackBradshaw.com) to explore collaborative ventures 🤝.
