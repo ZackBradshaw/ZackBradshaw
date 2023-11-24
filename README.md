@@ -37,14 +37,6 @@ The playground of circuits and semiconductors, where my creative currents find t
 
 ---
 
-The updated sections encapsulate a more detailed exploration of your tech journey and provide a creative twist to your narrative. They also include the requested Discord links in the community section for better engagement.
-## 🏆 Hackathon Achievements:
-
-- [Ikigai Project - Top 25](https://lablab.ai/event/autonomous-agents-hackathon/agora-spartans/ikigai): A venture into autonomous agents, blending unique AI frameworks to carve out notable solutions 🤖.
-- [Profit Pilot - Top 8](https://lablab.ai/event/llama-2-hackathon-with-clarifai/agora-spartans/profit-pilot): Fusing AI with intuitive interfaces to drive optimized outcomes in the business landscape 📈.
-- [Game Jam - Rise of Agora](https://zackbradshaw.itch.io/riseofagora): An amalgamation of my love for game development and AI, fostering a novel gaming experience 🎮.
-
-
 ## 🛠 Tech Strengths:
 
 - Proficient in a wide spectrum of tech domains, encompassing local and cloud computing, autonomous agent systems, and the underlying models themselves 🌐.
