@@ -38,9 +38,6 @@ The playground of circuits and semiconductors, where my creative currents find t
 ---
 
 ## 🛠 Tech Strengths:
-
-- Proficient in a wide spectrum of tech domains, encompassing local and cloud computing, autonomous agent systems, and the underlying models themselves 🌐.
-- Pioneering in electrical tinkering, unraveling the nuances of hardware to provide holistic tech solutions 🔌.
 - Versatile problem-solving capabilities honed through diverse project engagements 🧩.
 - Demonstrated leadership and community-building acumen, guiding hackathon teams to victory and fostering vibrant, collaborative tech communities 🏆.
 
