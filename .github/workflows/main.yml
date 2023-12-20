@@ -34,7 +34,6 @@ jobs:
           LANG_COUNT: '100000'
           SHOW_TIME: 'true'
           SHOW_TOTAL: 'true'
-          SHOW_MASKED_TIME: 'true'
         continue-on-error: true
 
 
