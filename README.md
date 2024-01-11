@@ -31,7 +31,7 @@ The playground of circuits and semiconductors, where my creative currents find t
 - Regular interactions within this group provide a conduit for exchanging ideas, exploring tech trends, and building a communal support system vital for nurturing the local tech scene 🤝.
 - Join the conversation on [Discord](https://discord.gg/qs5kZSgw6y).
 
-### Discord Community:
+###  Agora:
 - Leading the official hackathon team, spearheading initiatives aimed at delving into pioneering papers, orchestrating open-source contributions, and nurturing a vibrant hub for tech enthusiasts 📜.
 - Be a part of our [Agora Discord community](https://discord.gg/83k959dKvy) to explore, learn, and collaborate on various tech fronts.
 
