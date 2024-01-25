@@ -14,9 +14,6 @@ Amidst the frontier of artificial intelligence, I breathe life into autonomous a
 ### Software and Hardware Development 🎭:
 The theater of software and hardware development unveils my finesse in molding digital and electronic clay, crafting both the stage and the script for tech dramas. The ballet of bits and bytes performs to my orchestrated symphonies.
 
-### Electrical Tinkering 🔌:
-The playground of circuits and semiconductors, where my creative currents find their flow. Each circuit designed, each semiconductor synced, dances to the rhythm of my electric dreams.
-
 ---
 
 ## 🌐 Community Engagements:
