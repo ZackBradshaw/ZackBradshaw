@@ -21,20 +21,20 @@ jobs:
             rate_limit=$(curl -s -H "Authorization: token ${{ secrets.GH_TOKEN }}" "https://api.github.com/rate_limit" | jq '.resources.core.remaining')
           done
           
-      - name: WakaReadme DevMetrics
-        id: devmetrics
-        uses: athul/waka-readme@master
-        with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_TITLE: 'true'
-          SECTION_NAME: 'wakadev'
-          BLOCKS: '=>'
-          CODE_LANG: 'python'
-          TIME_RANGE: 'all_time'
-          LANG_COUNT: '100000'
-          SHOW_TIME: 'true'
-          SHOW_TOTAL: 'true'
-        continue-on-error: true
+      # - name: WakaReadme DevMetrics
+      #   id: devmetrics
+      #   uses: athul/waka-readme@master
+      #   with:
+      #     WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+      #     SHOW_TITLE: 'true'
+      #     SECTION_NAME: 'wakadev'
+      #     BLOCKS: '=>'
+      #     CODE_LANG: 'python'
+      #     TIME_RANGE: 'all_time'
+      #     LANG_COUNT: '100000'
+      #     SHOW_TIME: 'true'
+      #     SHOW_TOTAL: 'true'
+      #   continue-on-error: true
 
 
       - name: Update Readme
@@ -43,7 +43,7 @@ jobs:
         with:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_LINES_OF_CODE: 'True'
+          # SHOW_LINES_OF_CODE: 'True'
           SHOW_TOTAL_CODE_TIME: 'True'
           SHOW_PROFILE_VIEWS: 'True'
           SHOW_DAYS_OF_WEEK: 'True'
@@ -62,7 +62,7 @@ jobs:
         with:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_LINES_OF_CODE: 'True'
+          # SHOW_LINES_OF_CODE: 'True'
           SHOW_TOTAL_CODE_TIME: 'True'
           SHOW_PROFILE_VIEWS: 'True'
           SHOW_DAYS_OF_WEEK: 'True'
