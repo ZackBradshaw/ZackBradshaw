@@ -37,43 +37,43 @@ jobs:
       #   continue-on-error: true
 
 
-      - name: Update Readme
-        id: update-readme
-        uses: anmol098/waka-readme-stats@master
-        with:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          # SHOW_LINES_OF_CODE: 'True'
-          SHOW_TOTAL_CODE_TIME: 'True'
-          SHOW_PROFILE_VIEWS: 'True'
-          SHOW_DAYS_OF_WEEK: 'True'
-          SHOW_LANGUAGE: 'True'
-          SHOW_OS: 'True'
-          SHOW_PROJECTS: 'True'
-          SHOW_EDITORS: 'True'
-          SHOW_LANGUAGE_PER_REPO: 'True'
-          SYMBOL_VERSION: '2'
-          DEBUG_LOGGING: 'True'
-        continue-on-error: true
+      # - name: Update Readme
+      #   id: update-readme
+      #   uses: anmol098/waka-readme-stats@master
+      #   with:
+      #     GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      #     WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+      #     # SHOW_LINES_OF_CODE: 'True'
+      #     SHOW_TOTAL_CODE_TIME: 'True'
+      #     SHOW_PROFILE_VIEWS: 'True'
+      #     SHOW_DAYS_OF_WEEK: 'True'
+      #     SHOW_LANGUAGE: 'True'
+      #     SHOW_OS: 'True'
+      #     SHOW_PROJECTS: 'True'
+      #     SHOW_EDITORS: 'True'
+      #     SHOW_LANGUAGE_PER_REPO: 'True'
+      #     SYMBOL_VERSION: '2'
+      #     DEBUG_LOGGING: 'True'
+      #   continue-on-error: true
 
-      - name: Retry if Wakatime API failed
-        if: steps.update-readme.outcome == 'failure'
-        uses: anmol098/waka-readme-stats@master
-        with:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          # SHOW_LINES_OF_CODE: 'True'
-          SHOW_TOTAL_CODE_TIME: 'True'
-          SHOW_PROFILE_VIEWS: 'True'
-          SHOW_DAYS_OF_WEEK: 'True'
-          SHOW_LANGUAGE: 'True'
-          SHOW_OS: 'True'
-          SHOW_PROJECTS: 'True'
-          SHOW_TIMEZONE: 'True'
-          SHOW_EDITORS: 'True'
-          SHOW_LANGUAGE_PER_REPO: 'True'
-          SYMBOL_VERSION: '2'
-          DEBUG_LOGGING: 'True'
+      # - name: Retry if Wakatime API failed
+      #   if: steps.update-readme.outcome == 'failure'
+      #   uses: anmol098/waka-readme-stats@master
+      #   with:
+      #     GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      #     WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+      #     # SHOW_LINES_OF_CODE: 'True'
+      #     SHOW_TOTAL_CODE_TIME: 'True'
+      #     SHOW_PROFILE_VIEWS: 'True'
+      #     SHOW_DAYS_OF_WEEK: 'True'
+      #     SHOW_LANGUAGE: 'True'
+      #     SHOW_OS: 'True'
+      #     SHOW_PROJECTS: 'True'
+      #     SHOW_TIMEZONE: 'True'
+      #     SHOW_EDITORS: 'True'
+      #     SHOW_LANGUAGE_PER_REPO: 'True'
+      #     SYMBOL_VERSION: '2'
+      #     DEBUG_LOGGING: 'True'
 
       - name: Sleep for 0.6 seconds
         run: sleep 0.6
