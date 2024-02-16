@@ -22,13 +22,12 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo"  />
 </div>
 
-<div align="center">
 [![Zack's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ZackBradshaw&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 ![Code Time](http://img.shields.io/badge/Code%20Time-2%2C653%20hrs%2015%20mins-blue)
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-2-blue)
+
+<div align="center">
+<a href="https://app.daily.dev/zackzbradshaw"><img src="https://api.daily.dev/devcards/v2/2a6ndHtElpWU0D7AO0JZK.png?r=1pw&type=default" width="356" alt="Zack Bradshaw's Dev Card"/></a>
 </div>
-
-<a align="center" href="https://app.daily.dev/zackzbradshaw"><img src="https://api.daily.dev/devcards/v2/2a6ndHtElpWU0D7AO0JZK.png?r=1pw&type=default" width="356" alt="Zack Bradshaw's Dev Card"/></a>
-
 
 
