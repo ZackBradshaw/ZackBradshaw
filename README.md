@@ -32,6 +32,7 @@
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-2-blue)
 
+<a href="https://app.daily.dev/zackzbradshaw"><img src="https://api.daily.dev/devcards/v2/2a6ndHtElpWU0D7AO0JZK.png?r=1pw&type=default" width="356" alt="Zack Bradshaw's Dev Card"/></a>
 
  Last Updated on 11/02/2024 18:40:05 UTC
 <!--END_SECTION:waka-->
