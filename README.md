@@ -4,9 +4,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ZackBradshaw&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
 </div>
 
-###
-
-<div align="left">
+<div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg" height="40" alt="vim logo"  />
@@ -24,17 +22,13 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo"  />
 </div>
 
-###
-
+<div align="center">
 [![Zack's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ZackBradshaw&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-<!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-2%2C653%20hrs%2015%20mins-blue)
-
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-2-blue)
+</div>
 
-<a href="https://app.daily.dev/zackzbradshaw"><img src="https://api.daily.dev/devcards/v2/2a6ndHtElpWU0D7AO0JZK.png?r=1pw&type=default" width="356" alt="Zack Bradshaw's Dev Card"/></a>
+<a align="center" href="https://app.daily.dev/zackzbradshaw"><img src="https://api.daily.dev/devcards/v2/2a6ndHtElpWU0D7AO0JZK.png?r=1pw&type=default" width="356" alt="Zack Bradshaw's Dev Card"/></a>
 
- Last Updated on 11/02/2024 18:40:05 UTC
-<!--END_SECTION:waka-->
 
 
