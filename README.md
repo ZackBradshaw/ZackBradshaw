@@ -23,7 +23,9 @@
 </div>
 
 [![Zack's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ZackBradshaw&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
 ![Code Time](http://img.shields.io/badge/Code%20Time-2%2C653%20hrs%2015%20mins-blue)
+
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-2-blue)
 
 <div align="center">
