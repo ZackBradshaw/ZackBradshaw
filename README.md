@@ -30,8 +30,5 @@
 
 </div>
 
-<div align="center">
-<a href="https://app.daily.dev/zackzbradshaw"><img src="https://api.daily.dev/devcards/v2/2a6ndHtElpWU0D7AO0JZK.png?r=1pw&type=default" width="356" alt="Zack Bradshaw's Dev Card"/></a>
-</div>
 
 
