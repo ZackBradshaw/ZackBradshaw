@@ -22,13 +22,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo"  />
 </div>
 
-<div align="center">
-
-[![Zack's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ZackBradshaw&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-
-![Code Time](http://img.shields.io/badge/Code%20Time-2%2C653%20hrs%2015%20mins-blue)
-
-</div>
 
 
 
